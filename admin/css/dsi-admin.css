@@ -1,0 +1,216 @@
+/* Dummy Site Inflator — Admin Styles */
+
+.dsi-wrap {
+	max-width: 720px;
+	margin-top: 20px;
+}
+
+.dsi-heading {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 24px;
+	margin-bottom: 6px;
+}
+
+.dsi-icon {
+	font-size: 28px;
+}
+
+.dsi-tagline {
+	color: #666;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+/* Notice */
+.dsi-notice {
+	padding: 12px 16px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border-left: 4px solid #2271b1;
+	background: #f0f6fc;
+	font-size: 13px;
+}
+
+.dsi-notice--info {
+	border-left-color: #2271b1;
+	background: #f0f6fc;
+}
+
+/* Cards */
+.dsi-card {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 24px;
+	margin-bottom: 20px;
+}
+
+.dsi-card h2 {
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: 600;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+	margin-bottom: 16px;
+}
+
+.dsi-card--status {
+	background: #f9f9f9;
+}
+
+.dsi-card--danger {
+	border-color: #d63638;
+}
+
+.dsi-card--danger h2 {
+	color: #d63638;
+}
+
+/* Field row */
+.dsi-field-row {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin-bottom: 12px;
+	flex-wrap: wrap;
+}
+
+.dsi-field-row label {
+	font-weight: 500;
+	font-size: 14px;
+	min-width: 220px;
+}
+
+.dsi-number-input {
+	width: 120px;
+	padding: 6px 10px;
+	font-size: 15px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+}
+
+/* Size estimate */
+.dsi-size-estimate {
+	font-size: 13px;
+	color: #555;
+	margin-bottom: 18px;
+	padding: 8px 12px;
+	background: #f6f7f7;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+/* Buttons */
+.dsi-btn {
+	font-size: 14px !important;
+	padding: 8px 20px !important;
+	height: auto !important;
+	border-radius: 4px !important;
+}
+
+.dsi-btn--generate {
+	background: #2271b1 !important;
+	border-color: #2271b1 !important;
+}
+
+.dsi-btn--generate:hover {
+	background: #135e96 !important;
+	border-color: #135e96 !important;
+}
+
+.dsi-btn--delete {
+	background: #d63638 !important;
+	border-color: #d63638 !important;
+	color: #fff !important;
+}
+
+.dsi-btn--delete:hover {
+	background: #b32d2e !important;
+	border-color: #b32d2e !important;
+}
+
+/* Progress bar */
+.dsi-progress-wrap {
+	margin-top: 18px;
+}
+
+.dsi-progress-bar-track {
+	background: #e0e0e0;
+	border-radius: 20px;
+	height: 18px;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.dsi-progress-bar {
+	height: 100%;
+	width: 0%;
+	background: #2271b1;
+	border-radius: 20px;
+	transition: width 0.4s ease;
+}
+
+.dsi-progress-bar--red {
+	background: #d63638;
+}
+
+.dsi-progress-status {
+	font-size: 13px;
+	color: #555;
+	margin: 0;
+}
+
+/* Result message */
+.dsi-result {
+	margin-top: 14px;
+	padding: 12px 16px;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.dsi-result--success {
+	background: #edfaef;
+	border-left: 4px solid #00a32a;
+	color: #1a7a36;
+}
+
+.dsi-result--error {
+	background: #fcf0f1;
+	border-left: 4px solid #d63638;
+	color: #8a1f20;
+}
+
+/* Stat rows */
+.dsi-stat-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 0;
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+}
+
+.dsi-stat-row:last-child {
+	border-bottom: none;
+}
+
+/* Badges */
+.dsi-badge {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 20px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.dsi-badge--green {
+	background: #edfaef;
+	color: #1a7a36;
+}
+
+.dsi-badge--grey {
+	background: #f0f0f1;
+	color: #666;
+}
